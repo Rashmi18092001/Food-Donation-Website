@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.donate-box{
+    margin: 2rem;
+    width: 50%;
+    transform: translate(50%, 0%);
+}
+.d-head{
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+}
+.d-info{
+    width: 50%;
+}
+.d-details{
+    position: relative;
+    left: 25%;
+}
+.d-btn{
+    position: relative;
+    left: 15%;
+}
+.d-btn button{
+    padding: 0.5rem 3rem;
+    background-color: rgb(255, 196, 0);
+    border-radius: 5px;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.d-btn button a{
+    text-decoration: none;
+}
+
+
+input[type="radio"] {
+    width: 5%;
+    
+}
+
+input{
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+.item > label{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+textarea::placeholder{
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.3rem;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .donate-box {
+        width: 90%; /* Adjusted width for smaller screens */
+        transform: none;
+    }
+
+    .d-info {
+        width: 100%; /* Full width for smaller screens */
+    }
+    .d-details {
+        position: relative; 
+        left: 0;
+    }
+    .d-btn{
+        position: relative;
+        left: 28%;
+    
+    }
+    input[type="radio"] {
+        width: 8%;
+    }
+    
+}
+/* hunger spot css */
+.h-tag{
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: rgb(199, 156, 16);
+}

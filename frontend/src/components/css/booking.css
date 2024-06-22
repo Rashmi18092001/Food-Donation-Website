@@ -1,0 +1,15 @@
+.book-card{
+    min-height: 90vh;
+}
+
+.book-card h2{
+    text-align: center;
+    padding: 2rem;
+}
+.book-container{
+   
+    margin: 0rem 5rem;
+}
+.user-detail h5{
+    font-size: 1rem;
+}
